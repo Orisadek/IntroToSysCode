@@ -53,6 +53,7 @@ int showMenu() {
     printf("%s", "Enter Your Selection:");
     fflush(stdin);
     scanf("%d", &input);
+    return input;
 }
 
 int getValues(FILE* file, char* name_series, int* id, int* season_num, char* is_active) {
